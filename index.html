@@ -217,7 +217,9 @@ let toastTimer;$$('button').filter(b=>!b.closest('.wx-dots')&&!b.matches('.wx-ha
 .wx-ahero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:96px;pointer-events:none;z-index:3;background:linear-gradient(to top,rgba(10,16,20,.88),rgba(10,16,20,.35) 55%,transparent)}
 .wx-adots{z-index:6}
 @media(max-width:768px){
-  .wx-adots button:not(.d){min-width:44px;min-height:44px}
-  .wx-adots{bottom:10px;padding-bottom:4px}
+  .wx-adots{left:4px;right:4px;bottom:6px;max-width:none;justify-content:center;align-items:center;flex-wrap:nowrap;gap:0;height:44px}
+  .wx-adots .d{width:6px;height:6px;margin:0 1px;flex:0 0 auto}
+  .wx-adots button:not(.d){min-width:44px;min-height:44px;flex:0 0 44px}
+  .wx-aslide .wx-acap,.wx-aslide:has(.wx-aquote) .wx-acap{bottom:96px}
 }
 </style>
