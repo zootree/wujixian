@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap");
 
 .wx{--wx-black:#0a1014;--wx-surface:#121c21;--wx-cyan:#3ee0ec;--wx-cyan-soft:#5fc8d2;--wx-cyan-mid:#a6f4fa;--wx-teal:#1d4a52;--wx-white:#f2f7f8;--wx-gray:#93a3a7;--wx-gray-dark:#6c6c6c;--wx-nav-bg:rgba(10,16,20,.92);--wx-line:rgba(62,224,236,.18);
- background:var(--wx-black);color:var(--wx-white);font-family:"Noto Sans TC", "Microsoft JhengHei", sans-serif;font-size:17px;line-height:1.47;-webkit-font-smoothing:antialiased;overflow:visible}
+ background:var(--wx-black);color:var(--wx-white);font-family:"Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", "PingFang TC", sans-serif;font-size:17px;line-height:1.47;-webkit-font-smoothing:antialiased;overflow:visible}
 .wx *{box-sizing:border-box}
 .wx button{font-family:inherit}
 .wx a{text-decoration:none}
@@ -47,7 +48,7 @@
 .wx-p1{margin:18px 0 0;font-size:16px;line-height:1.8;color:#d9d9d9}
 .wx-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:28px;padding-top:22px;border-top:2px solid var(--wx-teal)}
 .wx-num{font-family:monospace;font-size:clamp(28px,2.3vw,38px);font-weight:800;color:var(--wx-cyan);line-height:.95}
-.wx-num small{font-family:"Noto Sans TC", "Microsoft JhengHei", sans-serif;font-size:.42em;font-weight:600;margin-left:3px}
+.wx-num small{font-family:"Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", "PingFang TC", sans-serif;font-size:.42em;font-weight:600;margin-left:3px}
 .wx-lab{margin-top:8px;font-size:13px;color:var(--wx-gray)}
 .wx-note{margin-top:4px;font-size:11px;line-height:1.45;color:var(--wx-gray)}
 .wx-link{display:inline-flex;align-items:center;min-height:44px;padding:0;background:none;border:0;color:var(--wx-cyan-soft);font-size:16px;cursor:pointer;align-self:flex-start}
