@@ -20,6 +20,34 @@
 (function (global) {
   const JOURNAL = [
     {
+      id: "2026-11-11",
+      date: "2026/11/11",
+      tag: "工科賽",
+      title: "工科賽選手拍攝",
+      text: "工科賽選手拍攝。",
+      photos: [
+        {
+          src: "images/news/2026-11-11-filming-wall.jpg",
+          alt: "工科賽選手拍攝：攝影師與選手在牆邊",
+          width: 960,
+          height: 1280
+        },
+        {
+          src: "images/news/2026-11-11-filming-line.jpg",
+          alt: "工科賽選手拍攝：兩位選手蹲著拉線",
+          width: 960,
+          height: 1280
+        },
+        {
+          src: "images/news/2026-11-11-filming-monitor.jpg",
+          alt: "工科賽選手拍攝：監視螢幕",
+          width: 1140,
+          height: 1520
+        }
+      ],
+      videos: []
+    },
+    {
       id: "2026-11-10",
       date: "2026/11/10",
       tag: "選手訓練",
