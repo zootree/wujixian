@@ -222,4 +222,13 @@ let toastTimer;$$('button').filter(b=>!b.closest('.wx-dots')&&!b.matches('.wx-ha
   .wx-adots button:not(.d){min-width:44px;min-height:44px;flex:0 0 44px}
   .wx-aslide .wx-acap,.wx-aslide:has(.wx-aquote) .wx-acap{bottom:96px}
 }
+@media(min-width:769px){
+  .wx-ahero{height:652px;overflow:hidden;border-radius:0;background:transparent}
+  .wx-aslide{top:0;left:0;right:0;bottom:auto;height:600px;overflow:hidden;border-radius:6px}
+  .wx-ahero::after{bottom:52px;height:40px;border-radius:0 0 6px 6px;background:linear-gradient(to top,rgba(10,16,20,.45),transparent)}
+  .wx-adots{left:0;right:0;bottom:0;height:52px;max-width:none;justify-content:center;align-items:center;flex-wrap:nowrap;gap:6px}
+  .wx-adots .d{width:10px;height:10px;margin:0 3px}
+  .wx-adots button:not(.d){min-width:44px;min-height:44px}
+  .wx-aslide .wx-acap,.wx-aslide:has(.wx-aquote) .wx-acap{bottom:36px}
+}
 </style>
