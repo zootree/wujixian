@@ -20,6 +20,40 @@
 (function (global) {
   const JOURNAL = [
     {
+      id: "2026-11-26",
+      date: "2026/11/26",
+      tag: "工科賽",
+      title: "11/26 工科賽比賽",
+      text: "115 學年度工科賽比賽現場：與作品合影，以及比賽互助、傳承幫助。",
+      photos: [
+        {
+          src: "images/news/2026-11-26-work-a.jpg",
+          alt: "工科賽比賽：作品合影",
+          width: 1200,
+          height: 1600
+        },
+        {
+          src: "images/news/2026-11-26-work-b.jpg",
+          alt: "工科賽比賽：作品合影",
+          width: 1600,
+          height: 1200
+        },
+        {
+          src: "images/news/2026-11-26-mutual-help.jpg",
+          alt: "工科賽比賽：比賽互助",
+          width: 1200,
+          height: 1600
+        },
+        {
+          src: "images/news/2026-11-26-passing-on.jpg",
+          alt: "工科賽比賽：傳承幫助",
+          width: 1200,
+          height: 1600
+        }
+      ],
+      videos: []
+    },
+    {
       id: "2026-11-11",
       date: "2026/11/11",
       tag: "工科賽",
